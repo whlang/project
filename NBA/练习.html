@@ -1,0 +1,139 @@
+	<!doctype html>
+	<html lang="en">
+	 <head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Document</title>
+		<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+			#d1{
+				width:100px;
+				height:50px;
+				margin:50px auto;
+				background:orange;
+				position:relative;
+			}
+			#d2{
+				width:20px;
+				height:10px;
+				position:absolute;
+				background:red;
+			}
+			#d3{
+				width:60px;
+				height:10px;
+				position:relative;
+				background:yellow;
+				left:20px;
+				float:left;
+			}
+			i{
+				border:10px solid transparent;
+				border-top-color:#000;
+				position:absolute;
+				right:5px;
+			}
+	 li{
+				list-style:none;
+				float:left;
+			}
+			img{
+				width:30px;
+				position:absolute;
+
+			}
+			#u2{
+			width:200px;
+			height:200px;
+			background:yellow;
+			
+			}
+			#u2 > li{
+				width:50px;
+				height:50px;
+				background:red;
+				float:left;
+			}
+			#u1{
+			  width:250px;
+				height:250px;
+				background:blue;
+				position:absolute;
+				display:none;
+			}
+			#d3:hover #u1{
+			  display:block;
+			}
+			#u1 > li{
+			  width:60px;
+				height:10px;
+				font-size:8px;
+			}
+			#d4{
+			  width:200px;
+				height:200px;
+				background:purple;
+			}
+			
+			.one{
+			  background:red;
+			}
+			.two.one{
+			  background:#fff;
+			}
+			#center{
+			  width:200px;
+				height:100px;
+        font-size:25px;
+				padding-right:10px;
+				text-align:right;
+				line-height:100px;
+				background:#c1c1c1 url(img/header/nba-com-icon.png) no-repeat  5% center;
+				box-sizing:border-box;
+			}
+			#span :first-child{
+			  display:inline-block;
+			  width:200px;
+				height:20px;
+				background:blue;
+			}
+			#span :nth-child(2){
+			  color:red;
+			}
+		</style>
+	 </head>
+	 <body>
+		<ul id="d1">
+			<li id="d2"></li>
+			<li id="d3">
+				<img src="img/header/nbastore-icon-pc.png" alt="">
+				<i></i>
+				<ul id="u1">
+					<li class="one two">环艺</li>
+					<li class="one ">球衣</li>
+					<li>环球</li>
+				</ul>
+				<ul></ul>
+			</li>
+		</ul>
+		<div id="d4">
+			<ul id="u2">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div id="center">凯尔特人</div>
+		<div id="span">
+		<span>环艺</span>
+		<span>行内</span>
+		<div style="width:200px;height:200px;background:url(img/nba-com-icon.png) no-repeat "></div>
+		</div>
+	 </body>
+	</html>

@@ -1,0 +1,663 @@
+#header{
+    width:100%;
+	height:120px;
+	margin:0;
+	background:#006bb7;
+}
+#header div.header-top{
+    line-height:80px;
+	width:1200px;
+	margin:0 auto;
+}
+#header div.header-top .top img{
+    width:250px;
+	height:71px;
+	padding-left:45px;
+}
+#header div.header-top .nba-icon img{
+    width:60px;
+	height:25px;
+	padding-left:10px;
+}
+.nba-pic{
+    float:right;
+	height:20px;
+	margin-top:-20px;
+}
+#header div.header-top .nba-pic > li{
+    float:left;
+	margin-left:10px;
+	margin-bottom:40px;
+	height:20px;
+}
+#header div.header-top .nba-pic > li:last-child{
+    width:90px;
+	height:20px;
+	position:relative;
+}
+#header div.header-top .nba-pic li:last-child i{
+    border:6px solid transparent;
+	border-top-color:#fff;
+	position:absolute;
+    top:40px;
+	right:5px;
+}
+#header div.header-top .nba-pic li:last-child :hover i{
+    border:6px solid transparent;
+	border-bottom-color:#fff;
+	top:30px;
+}
+#header div.header-top .nba-pic li:last-child #nbastore{
+    width:90px;
+	height:280px;
+	position:absolute;
+	color:#fff;
+	background:#002f50;
+	top:50px;
+	display:none;
+	z-index:3;
+}
+#header div.header-top .nba-pic li:last-child:hover #nbastore{
+    display:block;
+}
+#header div.header-top .nba-pic > li:last-child #nbastore li{
+    margin:0;
+	padding:0;
+    width:90px;
+    height:40px;
+	line-height:40px;
+	text-align:center;
+}
+#header div.header-top .nba-pic > li:last-child #nbastore li:hover{
+    background:#3671BC;
+	border:1px solid #000;
+}
+#header div.header-top .nba-pic > li:last-child #nbastore li a{
+    color:#fff;
+}
+/*导航栏*/
+#header .header-bottom{
+    position:relative;
+    width:1200px;
+	height:40px;
+	margin:0 auto;
+}
+#header .header-bottom .nav{
+    width:880px;
+	padding-left:45px;
+}
+#header .header-bottom .nav li{
+    width:75px;
+    float:left;
+	text-align:center;
+	line-height:40px;
+}
+#header .header-bottom .nav li a{
+    font-size:16px;
+	color:#fff;
+}
+#header .header-bottom .nav li a:hover{
+    color:#00ADFE;
+}
+/* 球队 */
+#header .header-bottom .nav #team-contain{
+    width:75px;
+	position:relative;
+}
+#header .header-bottom .nav #team{
+    width:1200px;
+	height:440px;
+    position:absolute;
+	left:-345px;
+	display:none;
+	border-bottom:2px solid #002f50;
+	z-index:3;
+}
+#header .header-bottom .nav #team li{
+    margin-left:0;
+}
+#header .header-bottom .nav #team-contain:hover #team{
+    display:block;
+}
+#header .header-bottom .nav .east-team{
+    width:600px;
+	height:440px;
+	position:absolute;
+	top:-1px;
+}
+#header .header-bottom .nav .east-team li{
+    border-left:2px solid #002f50;
+	border-right:1px solid #C1C1C1;
+}
+#header .header-bottom .nav .west-team{
+    width:600px;
+	height:440px;
+	position:absolute;
+	right:0px;
+	top:-1px;
+}
+#header .header-bottom .nav .west-team li{
+    border-right:2px solid #002f50;
+	border-left:1px solid #C1C1C1;
+}
+#team-contain #team .team-title{
+    width:100%;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:18px;
+	color:#fff;
+	background:#002f50;
+}
+#team-contain #team .team-area.gray{
+    width:100%;
+	height:40px;
+	font-size:14px;
+	background:#e5e5e5;
+}
+#team-contain #team .team-list{
+    background:#fff;
+}
+#team-contain #team .team-area span{
+    display:inline-block;
+    width:196px;
+	height:40px;
+}
+#team-contain #team .team-list.gray{
+    width:100%;
+	height:70px;
+	font-size:14px;
+	text-align:center;
+	line-height:70px;
+	background:#e5e5e5 url(../img/header/homepageteamlogos.png) no-repeat center left;
+}
+#team-contain #team .team-list a:hover{
+    background:#C1C1C1 url(../img/header/homepageteamlogos.png) no-repeat center left;
+}
+#team-contain #team .team-list a{
+    display:inline-block;
+	box-sizing:border-box;
+    width:195px;
+	height:70px;
+	font-size:14px;
+	color:#2866b6;
+	padding-left:60px;
+}
+#team-contain #team .team-list{
+    width:100%;
+	height:70px;
+	font-size:16px;
+	text-align:center;
+	line-height:70px;
+}
+/*球员*/
+#header #player{
+    position:relative;
+	width:75px;
+	height:40px;
+}
+#header .header-bottom .nav-menu{
+    width:160px;
+	height:80px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	display:none;
+}
+#header .header-bottom .nav-menu li{
+    height:40px;
+    width:160px;
+	padding-left:10px;
+	text-align:left;
+}
+#header .header-bottom .nav-menu li a{
+    font-size:14px;
+}
+#header #player:hover .nav-menu{
+    display:block;
+}
+#header .nav-menu li:hover{
+    background:#3671BC;
+}
+#header .header-bottom .nav-menu li a:hover{
+    color:#fff;
+}
+/*赛程*/
+#header #schedule{
+    width:75px;
+	height:40px;
+	position:relative;
+}
+#header #schedule:hover .nav-sch{
+    display:block;
+}
+#header #schedule .nav-sch{
+    width:160px;
+	height:120px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	display:none;
+	z-index:5;
+}
+#header #schedule .nav-sch li{
+    width:100%;
+	height:40px;
+	text-align:left;
+    padding-left:10px;
+	line-height:40px;
+	color:#fff;
+	font-size:14px;
+}
+#header #schedule .nav-sch li a{
+    font-size:14px;
+}
+#header #schedule .nav-sch li:hover{
+    background:#3671BC;
+}
+#header #schedule .nav-sch li:hover a{
+   color:#fff;
+}
+/*排名*/
+#header #ranking{
+    width:75px;
+	height:40px;
+	position:relative;
+}
+#header #ranking:hover div{
+    display:block;
+}
+#header #ranking > div{
+    width:160px;
+	height:40px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	text-align:left;
+	line-height:40px;
+	padding-left:10px;
+	display:none;
+}
+#header #ranking > div a{
+    font-size:14px;
+}
+#header #ranking > div:hover{
+    background:#3671BC;
+}
+#header #ranking > div:hover a{
+    color:#fff;
+}
+/*数据*/
+#header #data {
+    width:75px;
+	height:40px;
+	position:relative;
+	z-index:3;
+}
+#header #data:hover #more-data{
+    display:block;
+}
+#header #data > ul{
+    width:160px;
+	height:160px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	display:none;
+}
+#header #data > ul li{
+    width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:left;
+	padding-left:10px;
+}
+#header #data > ul li:hover{
+    background:#3671BC;
+}
+#header #data > ul li a{
+    font-size:14px;
+}
+#header #data > ul li a:hover{
+    color:#fff;
+}
+/*专题*/
+#header #theme{
+    width:75px;
+	height:40px;
+	position:relative;
+	z-index:3;
+}
+#header #theme:hover #more-theme{
+    display:block;
+}
+#header #theme #more-theme{
+    width:160px;
+	height:200px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	display:none;
+}
+#header #theme #more-theme li{
+    width:100%;
+	height:40px;
+	text-align:left;
+	line-height:40px;
+	padding-left:10px;
+}
+#header #theme #more-theme li a{
+    font-size:14px;
+	color:#fff;
+}
+#header #theme #more-theme li:hover{
+    background:#3671BC;
+}
+/*更多*/
+#header #more{
+    width:75px;
+	height:40px;
+    position:relative;
+	z-index:5;
+}
+#header #more:hover #other{
+    display:block;
+}
+#header #more #other{
+    width:160px;
+	height:240px;
+	background:#002f50;
+	position:absolute;
+	top:40px;
+	display:none;
+}
+#header #more #other li{
+    width:100%;
+	height:40px;
+	text-align:left;
+	line-height:40px;
+	padding-left:10px;
+}
+#header #more #other li:hover{
+    background:#3671BC;
+}
+#header #more #other li a{
+    font-size:14px;
+}
+#header #more #other li:hover a{
+    font-size:14px;
+	color:#fff;
+}
+/*搜索*/
+#header .header-land{
+    width:270px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+/*	background:#c1c1c1;*/
+	position:absolute;
+	right:10px;
+/*	display:none;*/
+}
+#header .header-land .search{
+    background: #fff url(../img/header/icon_20_search_blue_af9f93.png) no-repeat center;
+	width:35px;
+	height:30px;
+	border-radius:15px 0 0 15px;
+    cursor:pointer;
+	position:absolute;
+    left:1px;
+	z-index:2;
+}
+#header .header-land .search-inp{
+    width:195px;
+	height:30px;
+    position:absolute;
+	left:36px;
+	border-radius:0 15px 15px 0;
+	outline:none;
+	border:none;
+}
+#header .header-land .land{
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:1px;
+	z-index:2;
+}
+#header .header-land .qq{
+	width:150px;
+	height:80px;
+	background:#002f50;
+}
+#header #face{
+    width:40px;
+	height:40px;
+	position:absolute;
+	right:0;
+}
+#header .header-land #face:hover ul{
+    display:block;
+}
+#header .header-land .qq{
+    position:absolute;
+	right:0;
+	top:40px;
+	display:none;
+}
+#header .header-land .qq li{
+    width:100%;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+#header .header-land .qq li:hover{
+    background:#3671BC;
+}
+#header .header-land .qq li a{
+    font-size:14px;
+	color:white;
+}
+#header .header-land .qq li a:hover{
+    color:white;
+}
+
+/* 活动 */
+#idget{
+    width:1200px;
+	height:150px;
+	background:#F3F3F3;
+	text-align:center;
+}
+#idget a img{
+    margin-top:5px;
+	
+} 
+
+/*   轮播    */
+
+#body .select{
+    position:relative;
+}
+#body div.select #scroll{
+	position:relative;
+	left:2px;
+	margin-top:3px;
+	margin-left:3px;
+    width:800px;
+	height:500px;
+	overflow:hidden;
+	line-height:500px;
+	transition:all 1s linear
+}
+#body div.select #scroll:hover{
+    transform:scale(1.008,1.008);
+}
+#body div.select #scroll .dir img{
+    position:absolute;
+	top:220px;
+    width:45px;
+	height:60px;
+	opacity:0;
+	z-index:1;
+}
+#body div.select #scroll .dir img:hover{
+    opacity:1;
+}
+#body div.select #scroll .scrollImgnext img{
+    float:right;
+	right:0;
+}
+
+/* 轮播下的圆的*/
+
+#body div.select #scroll .scrollImg-nav{
+    width:150px;
+	height:20px;
+	position:absolute;
+	bottom:20px;
+	left:310px;
+	display:flex;
+	justify-content:space-between;
+	z-index:1;
+}
+#body div.select #scroll .scrollImg-nav li{
+    width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#fff;
+	float:left;
+}
+#body div.select #scroll .scrollImg-nav li:hover{
+    background:#87cefa;
+}
+#body div.select #scroll .scrollImg li img{
+    width:800px;
+	height:500px;
+	position:absolute;
+	top:0;
+}
+/* 轮播图右侧的news */
+#body .new_right{
+    width:385px;
+    height:500px;
+	position:absolute;
+	top:0;
+	right:5px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#body .new_right .news{
+
+    width:385px;
+	height:96px;
+	border-bottom:1px solid #c0c0c0;
+}
+#body .new_right .news .news_img{
+    width:140px;
+	height:96px;
+	transition:all 1s linear;
+}
+#body .new_right .news .news_img:hover{
+    transform:scale(1.05,1.05);
+}
+#body .new_right .news .newsDesc{
+    width:200px;
+	height:96px;
+    font-size:14px;
+	color:#000;
+}
+#body .new_right .news .newsDesc:hover{
+    color:#87cefa;
+}
+
+/**************  最新资讯  *****************/
+#floor{
+	  width:900px;
+	  height:740px;
+	  background: #dedede;                     /**/
+	  margin-left:10px;
+}
+#floor .floor_title{
+	  height:40px;
+	  width:100%;
+      margin-top:10px;
+	  border-bottom:1px solid #e5e5e5;
+	  line-height:40px;
+	  padding-right:10px;
+}
+#floor .floor_title .news-img{
+	  height:39px;
+	  background:url(../img/index/floor/news-title-ico_241386.png) no-repeat 0 10px;
+	  padding-left:36px;
+	  color:#2464b5;
+	  font-size:22px;
+	  border-bottom:3px solid #e11647;
+	  margin-buttom:0;
+	  float:left;
+	  line-height:39px;
+}
+#floor .floor_title .add{
+      float:right;
+	  height:40px;
+	  padding-right:20px;
+	  background:url(../img/index/floor/icon_16_addteam_cae572.png) no-repeat right center;
+	  font-size:16px;
+	  color:#2464b5;
+	  margin-right:3px;
+}
+
+/**********  换一换  ***************/
+#floor .swith-wrap{
+      width:100%;
+	  height:30px;
+	  padding-right:10px;
+	  line-height:30px;
+	  background:#9cf;
+}
+#floor .swith-wrap .change{
+	  height:30px;
+	  padding-left:20px;
+	  background: url(../img/index/floor/switch-icon_5966ef.png) no-repeat 0 center;
+	  float:right;
+	  color:#2464b5;
+	  font-size:14px;
+}
+#floor .news-box{
+	width:100%;
+	height:640px;
+    overflow:hidden;
+	display:inline;
+}
+#floor .news-box .
+#floor .news-box .first-row{
+	width:440px;
+	height:314px;
+	position:relative;
+	overflow:hidden;
+	background:#c0a16b;
+	display:inline-block;
+	box-sizing:border-box;
+	outline:none;
+	float:left;
+}
+#floor .news-box .second-row{
+	width:290px;
+	height:306px;
+	display:inline-block;
+	overflow:hidden;
+	box-sizing:border-box;
+	background:#5bc0de;
+	float:left;
+}
+#floor .news-box a{
+	margin:0 10px 10px 0;
+	border-rigth:1px solid red;
+}
+
+
+
+
+
+

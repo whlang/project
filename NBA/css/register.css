@@ -1,0 +1,146 @@
+body{
+   background:#000 url(../img/register/timg.jpg) no-repeat center center;
+   padding:0;
+   margin:0;
+}
+#reg-box{
+   margin:14% 10%;
+   width:500px;
+   height:530px;
+   position:relative;
+   border-radius:30px;
+   overflow:hidden;
+}
+#reg-img{
+   position:absolute;
+   opacity:0.8;
+   top:30px;
+   left:50px;
+}
+#reg-box .title>p{
+   width:100%;
+   height:50px;
+   background:rgba(255,00,00,0.7);
+   position:absolute;
+   text-align:center;
+   line-height:50px;
+   font-size:20px;
+   color:#fff;
+}
+#reg-box .form{
+   padding:0;
+   margin:0;
+   width:100%;
+   height:430px;
+   background:#fff;
+   position:absolute;
+   top:50px;
+   background:rgba(255,255,255,0.4);
+}
+#reg-box .form .form-group{
+   width:100%;
+   height:60px;
+   position:relative;
+}
+#reg-box .form >.container:first-child{
+   margin-top:10px;
+}
+#reg-box .form >.container:first-child .form-lt{
+   position:absolute;
+   top:10px;
+   left:10px;
+   font-size:20px;
+   color:rgba(255,255,255,0.5);
+}
+#reg-box .form >.container>:first-child .form-rt{
+   position:absolute;
+   right:10px;
+   top:10px;
+   color:rgba(33,188,237,0.6);
+}
+#reg-box .form >.container>:first-child .form-rt:hover{
+   text-decoretion:underline;
+}
+#reg-box .form .container .form-group .reg-lab{
+   display:block;
+   line-height:40px;
+   padding-right:10px;
+   text-align:center;
+   width:100px;
+   height:40px;
+   color:#fff;
+}
+#reg-box .form .container .form-group .reg-in{
+   display:block;
+   width:350px;
+   height:40px;
+   position:absolute;
+   background:rgba(255,255,255,0.8);
+   color:#000;
+   border:none;
+   right:50px;
+   top:0;
+   padding:0 20px 0;
+}
+#reg-box .form >.container>:last-child{
+   text-align:center;
+   line-height:50px;
+   border-radius:50%;
+   color:rgba(255,0,0,0.8);
+   font-size:18px;
+   position:absolute;
+   bottom:0;
+
+}
+#reg-box .form >.container>:last-child input{
+   display:block;
+   width:100%;
+   height:55px;
+   background:rgba(33,188,237,0.6);
+   border:none;
+   font-size:20px;
+   position:absolute;
+   bottom:0;
+}
+#reg-box .form >.container>:last-child input:hover{
+   background:rgba(33,188,237,0.9);
+}
+/************************************************
+********************  others  ******************
+************************************************/
+
+#reg-box .others{
+   width:100%;
+   height:50px;
+   position:absolute;
+   bottom:0;
+   background:rgba(255,255,255,0.5);
+   line-height:50px;
+}
+#reg-box .others .qq{
+   float:left;
+   width:60px;
+   height:50px;
+   position:relative;
+   left:50px;
+   line-height:40px;
+}
+#reg-box .others .qq b.qq-icon{
+   position:absolute;
+   overflow:hidden;
+   left:10px;
+   top:10px;
+   display:block;
+   width:20px;
+   height:50px;
+   background:url(../img/register/QQ-weixin.png) no-repeat 0 0;
+}
+#reg-box .others .qq span{
+   position:absolute;
+   right:0px;
+}
+#reg-box .others .regist{
+   float:right;
+}
+
+

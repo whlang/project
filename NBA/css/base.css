@@ -1,0 +1,41 @@
+body{
+	padding:0;
+	margin:0;
+	font:14px "Microsoft YaHei", Arial, 寰蒋闆呴粦, SimSun, 瀹嬩綋;
+	background:url(../img/header/bg_2811f8.jpg) repeat-y center 0;
+}
+.main{
+    width:1200px;
+	margin:0 auto;
+    padding:0;
+	background:#fff;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd,pre{
+    padding:0;
+	margin:0;
+	list-style:none;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color:#14171a;
+}
+img{
+    vertical-align:middle;
+}
+.lf{
+    float:left;
+}
+.rf{
+    float:right;
+}
+.clear{
+    content:"";
+	display:block;
+	clear:both;
+}
+
+*{
+    box-sizing:border-box;
+}

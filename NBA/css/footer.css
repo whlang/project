@@ -1,0 +1,63 @@
+/*footer上部分*/
+#footer{
+    width:100%;
+	height:415px;
+}
+#footer .tab-b{
+    width:100%;
+	height:250px;
+	background:rgba(1,46,77,0.9);
+}
+#footer .tab-list{
+    width:1200px;
+	height:250px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+#footer .tab-list .list{
+    width:210px;
+	height:250px;
+}
+#footer .tab-list .sports-app{
+    width:180px;
+	height:250px;
+}
+#footer .tab-list .nba-app{
+    width:180px;
+	height:250px;
+}
+
+#footer .tab-list > li > span{
+    display:inline-block;
+    height:65px;
+	width:100%;
+	font-size:20px;
+	line-height:65px;
+	color:#fff;
+}
+#footer .tab-list > li > a{
+    display:inline-block;
+	height:21px;
+	width:100%;
+	color:#fff;
+    margin-bottom:8px;
+}
+#footer .tab-list > li > a:hover{
+    text-decoration:underline;
+}
+
+/*footer的下部分*/
+
+#footer .copy{
+    width:100%;
+	height:165px;
+	background:#1F2428;
+	text-align:center;
+	padding-top:20px;
+}
+#footer .copy p{
+    color:#fff;
+    font-size:12px;
+	height:25px;
+}
